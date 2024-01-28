@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @Lineicons",
     content:
       "Collaborer avec le cabinet en digital marketing a été un véritable partenariat de croissance. Leur expertise dans le domaine a généré une visibilité accrue pour notre entreprise. Des stratégies efficaces et une équipe dévouée font de ce cabinet notre choix numéro un pour propulser notre présence en ligne",
-    image: "/images/testimonials/auth-03.png",
+    image: "/images/testimonials/testimonial1.png",
     star: 5,
   },
 ];
