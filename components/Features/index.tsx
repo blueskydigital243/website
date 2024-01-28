@@ -11,12 +11,12 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Nos services"
+            paragraph="Aginatech, votre partenaire tout-en-un pour le développement sur mesure, les solutions digitales avancées et le marketing digital percutant."
             center
           />
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-x-24 gap-y-14 md:grid-cols-2 lg:grid-cols-2 ">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}

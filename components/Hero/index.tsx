@@ -1,42 +1,76 @@
 import Link from "next/link";
+import {
+  RightTopClipPath,
+  LeftClipPath,
+  PolygonClipPath,
+  RightClipPath,
+} from "@/components/ui/clip-path";
+
+import BgHiro from "@/assets/images/b.png";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px] h-[900px] grainy"
       >
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
-              <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
-                data-wow-delay=".2s"
+        <div className="container pt-12">
+        <div className="sm:py-0 relative">
+        <RightTopClipPath />
+        <div className="hidden md:flex">
+          {" "}
+          <RightClipPath />
+          <PolygonClipPath />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="w-full">
+            <div className="flex flex-col gap-3 md:gap-7">
+              <h1
+                className="font-extrabold tracking-tight text-black/95 text-3xl sm:text-4xl lg:text-7xl sm:leading-loose"
+                style={{ lineHeight: "1.2" }}
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Free and Open-Source Next.js Template for Startup & SaaS
-                </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Startup is free Next.js template for startups and SaaS business websites comes with all the essential pages, components, and sections you need to launch a complete business website, built-with Next 13.x and Tailwind CSS.
+             Innovons Ensemble avec Aginatech<span className="text-primary">.</span>
+              </h1>
+              <div>
+                <p className="font-light text-xl text-light">
+                Explorez de nouveaux horizons numériques avec Aginatech, votre partenaire de confiance pour l&apos;innovation technologique. Nous façonnons l'avenir numérique avec des solutions sur mesure, des abonnements à nos outils numériques et des stratégies de marketing digital percutantes.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://nextjstemplates.com/templates/startup"
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+              </div>
+
+              <div className="pt-1 md:pt-3">
+              <Link
+                    href="#"
+                    className="rounded-full bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Download Now
+             
+             Explorer Nos Solutions
                   </Link>
-                  <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
-                    className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
-                  >
-                    Star on GitHub
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
+          <div className="relative">
+            <div className="absolute top-5 -right-10 bottom-9 z-40 hidden md:block">
+              {/* <Image src={'/images/hero/banner2.png'} width={1020} alt="" height={900}/> */}
+              <div className="flex relative">
+              <div className="bg-white/75  absolute -right-32 -top-32 w-[400px] h-[500px] shadow shadow-primary/20 rounded-xl flex justify-center items-center z-20">
+              <Image src={'/images/hero/hiro2-b.png'} className="bg-cover rounded-xl"  width={400} height={500}/>
+              </div>
+              <div className="bg-white/75  absolute right-32 -top-0  w-[400px] h-[500px] rounded-2xl flex justify-center items-center z-30">
+                <Image src={'/images/hero/hiro1-b.png'} className="bg-cover rounded-2xl" width={370} height={500}/>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="hidden md:flex">
+          {" "}
+          <LeftClipPath />
+        </div>
+      </div>
+          
         </div>
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
           <svg

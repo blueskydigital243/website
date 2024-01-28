@@ -5,8 +5,8 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Contactez Aginatech - Transformons Vos Idées en Réalité"
+        description="Prêt à donner vie à vos projets numériques ? Contactez-nous aujourd'hui. L'équipe d'Aginatech est là pour vous aider à concrétiser vos idées et à atteindre de nouveaux sommets dans le monde digital."
       />
 
       <Contact />

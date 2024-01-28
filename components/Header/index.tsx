@@ -44,7 +44,7 @@ const Header = () => {
             : "absolute"
         }`}
       >
-        <div className="container">
+        <div className="container ">
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
@@ -53,24 +53,10 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
-                  src="/images/logo/logo-2.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
+                <h1 className="font-bold text-2xl">AGINATECH</h1>
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
-              <div>
+            <div>
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
@@ -101,13 +87,13 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block w-full lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
                       <li key={menuItem.id} className="group relative">
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 text-xl font-medium`}
                           >
                             {menuItem.title}
                           </Link>
@@ -149,24 +135,15 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
-                  href="/signin"
-                  className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
-                >
-                  Sign In
-                </Link>
-                <Link
+            <div className="flex items-center justify-end pr-16 lg:pr-0">
+            <Link
                   href="/signup"
-                  className="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
+                  className="ease-in-up hidden rounded-3xl bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  Sign Up
+                  Planifier un appel
                 </Link>
-                <div>
-                  <ThemeToggler />
-                </div>
+                {/* <ThemeToggler /> */}
               </div>
-            </div>
           </div>
         </div>
       </header>

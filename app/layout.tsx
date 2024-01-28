@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "./satoshi.css";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import { ThemeProviders } from "./providers/providers";
@@ -22,7 +23,7 @@ export default function RootLayout({
     <html suppressHydrationWarning lang="en">
       <head />
 
-      <body className={`dark:bg-black`}>
+      <body className={`dark:bg-black grainy overflow-x-hidden`}>
         <ThemeProviders>
           <Header />
           {children}

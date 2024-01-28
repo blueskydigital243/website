@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name:"Mike Ngoy",
+    designation: "Ceo @TransacMoney",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Notre expérience avec le service de développement sur mesure a été exceptionnelle. L'équipe a su comprendre nos besoins spécifiques et a livré un produit de haute qualité. Une approche professionnelle et un résultat qui dépasse nos attentes",
+    image: "/images/testimonials/testimonial1.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Nzuzi Kasongo",
+    designation: "Directrice @Ep.Yama/Fille",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "Opter pour les applications à abonnement a été une décision stratégique pour notre entreprise. La facilité d'utilisation combinée à des fonctionnalités innovantes a considérablement amélioré notre productivité. Un investissement rentable qui a changé la donne pour nous",
+    image: "/images/testimonials/testimonial2.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
+    name: "Celestin Kananga",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Collaborer avec le cabinet en digital marketing a été un véritable partenariat de croissance. Leur expertise dans le domaine a généré une visibilité accrue pour notre entreprise. Des stratégies efficaces et une équipe dévouée font de ce cabinet notre choix numéro un pour propulser notre présence en ligne",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Retours de nos Utilisateurs"
+          paragraph="Découvrez les témoignages de nos utilisateurs sur notre service. Malgré les variations de Lorem Ipsum, la satisfaction de nos clients reste inchangée. Explorez leurs expériences maintenant !"
           center
         />
 

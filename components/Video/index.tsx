@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Votre réussite, notre engagement."
+          paragraph="Prêts à vous accompagner, nous offrons notre assistance pour concrétiser vos projets et atteindre vos objectifs digitaux avec expertise et engagement."
           center
           mb="80px"
         />
@@ -26,8 +26,8 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/video.jpg" alt="video image" fill />
-                <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
+                <Image src="/images/video/video1.png" alt="video image" fill className="w-full" />
+                <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center bg-cover">
                   <button
                     onClick={() => setOpen(true)}
                     className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
