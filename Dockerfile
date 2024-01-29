@@ -1,5 +1,5 @@
 # Use the official Node.js 14 base image
-FROM node:20-alpine3.17
+FROM node:20-alpine
 
 RUN npm install -g npm@9.7.2
 
