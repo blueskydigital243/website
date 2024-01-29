@@ -7,13 +7,6 @@ RUN rm -f /usr/local/bin/yarn
 
 RUN npm install -g yarn --force
 
-# Set Yarn version
-ENV YARN_VERSION=1.22.19
-
-# Install Yarn
-RUN npm install -g yarn@${YARN_VERSION}
-
-
 # Set the working directory inside the Docker image
 WORKDIR /app
 
