@@ -58,7 +58,7 @@ const Hero = () => {
               <Image src={'/images/hero/hiro2-b.png'} className="bg-cover rounded-xl"  width={400} height={500} alt="img"/>
               </div>
               <div className="bg-white/75  absolute right-32 -top-0  w-[400px] h-[500px] rounded-2xl flex justify-center items-center z-30">
-                <Image src={'/images/hero/hiro1-b.png'} className="bg-cover rounded-2xl" width={370} height={500}/ alt="img">
+                <Image src={'/images/hero/hiro1-b.png'} className="bg-cover rounded-2xl" width={370} height={500} alt="img">
               </div>
               </div>
             </div>
