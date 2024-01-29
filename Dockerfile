@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . .
 
-COPY .next/ ./.next/
+COPY .next ./.next
 
 CMD [ "npm", 'start' ]
