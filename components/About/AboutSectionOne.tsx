@@ -7,8 +7,11 @@ const checkIcon = (
   </svg>
 );
 
+export type ListProps ={
+  text?:string;
+}
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
+  const List = ({ text }:ListProps) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color bg-white ">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center bg-primary text-white border-2 border-primary rounded-full p-2">
         {checkIcon}
