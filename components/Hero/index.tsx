@@ -35,7 +35,7 @@ const Hero = () => {
               </h1>
               <div>
                 <p className="font-light text-xl text-light">
-                Explorez de nouveaux horizons numériques avec Aginatech, votre partenaire de confiance pour l&apos;innovation technologique. Nous façonnons l'avenir numérique avec des solutions sur mesure, des abonnements à nos outils numériques et des stratégies de marketing digital percutantes.
+                Explorez de nouveaux horizons numériques avec Aginatech, votre partenaire de confiance pour l&apos;innovation technologique. Nous façonnons l&apos;avenir numérique avec des solutions sur mesure, des abonnements à nos outils numériques et des stratégies de marketing digital percutantes.
                 </p>
               </div>
 
