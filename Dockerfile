@@ -1,20 +1,14 @@
-# Use the official Node.js 14 base image
+# Use the official Node.js 20 base image
 FROM node:20-alpine
-
-RUN npm install -g npm@9.7.2
-
-RUN rm -f /usr/local/bin/yarn
-
-RUN npm install -g yarn --force
 
 # Set the working directory inside the Docker image
 WORKDIR /app
 
-# Copy package.json and package-lock.json to the working directory
-COPY package*.json yarn*.lock ./
+# Copy package.json and yarn.lock to the working directory
+COPY package.json yarn.lock ./
 
 # Install project dependencies
-RUN yarn
+RUN yarn install --frozen-lockfile
 
 # Copy the entire application code to the working directory
 COPY . .
