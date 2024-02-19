@@ -47,7 +47,7 @@ const Brands = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div
-              className="wow fadeInUp flex flex-wrap items-center justify-center bg-white/75  shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]/10 px-8 dark:bg-primary dark:bg-opacity-5 sm:px-10 md:py-[40px] md:px-[50px] xl:p-[50px] 2xl:py-[40px] 2xl:px-[70px] p-24"
+              className="wow fadeInUp flex flex-wrap items-center justify-center bg-white/75 px-8 dark:bg-primary dark:bg-opacity-5 sm:px-10 md:py-[40px] md:px-[50px] xl:p-[50px] 2xl:py-[40px] 2xl:px-[70px] p-12"
               data-wow-delay=".1s
               "
             >
@@ -73,7 +73,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         href={href}
         target="_blank"
         rel="nofollow noreferrer"
-        className="relative h-16 w-full transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100 "
+        className="relative h-20 w-32 transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100 "
       >
         <Image src={image} alt={name} fill />
       </a>

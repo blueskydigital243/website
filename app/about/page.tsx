@@ -9,7 +9,7 @@ const AboutPage = () => {
         pageName="À Propos d'Aginatech - Une Histoire d'Innovation"
         description="Explorez l'histoire d'Aginatech, où l'innovation rencontre l'expertise. Notre équipe passionnée travaille sans relâche pour repousser les limites de la technologie et créer des solutions numériques exceptionnelles qui redéfinissent le futur."
       />
-      <AboutSectionOne />
+      {/* <AboutSectionOne /> */}
       <AboutSectionTwo />
     </>
   );
