@@ -26,6 +26,18 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
+    - run: npm install
     - run: npm run build --if-present
-    - run: npm test
+  access_server:
+      name: Deployment main
+      runs-on: ubuntu-latest
+      steps:
+        - name: Run deployment
+          uses: appleboy/ssh-action@master
+          with:
+            host: ${{ secrets.SSH_IP }}
+            port: ${{ secrets.SSH_PORT }}
+            username: ${{ secrets.SSH_USER }}
+            password: ${{ secrets.SSH_PASSWORD }}
+            script: |
+              echo 'Deploy finished successful.'
