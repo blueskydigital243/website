@@ -38,7 +38,7 @@ jobs:
             host: ${{ secrets.SSH_IP }}
             port: 22
             username: ${{ secrets.SSH_USER }}
-            key: ${{ secrets.SSH_PRIVATE_KEY }}
+            key: ${{ secrets.PRIVATE_KEY }}
             script: |
               cd sites/aginatech-site/website
               echo 'Deploy finished successfully..'
