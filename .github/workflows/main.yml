@@ -44,8 +44,8 @@ jobs:
               git pull origin main
               export NVM_DIR=~/.nvm
               source ~/.nvm/nvm.sh
-              npm run install
+              npm install
               npm run build
               pm2 delete aginatech
-              pm2 start npm --name "pm2 delete aginatech" -- start
+              pm2 start npm --name "aginatech" -- start
               echo 'Deploy finished successfully..'
