@@ -49,4 +49,4 @@ jobs:
               npm run build
               pm2 delete aginatech
               pm2 start npm --name "aginatech" -- start
-              echo 'Deploy finished successfully...'
+              echo 'Deploy finished success...'
