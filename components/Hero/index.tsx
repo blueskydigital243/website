@@ -62,7 +62,7 @@ const Hero = () => (
         <div className="sm:py-0 relative">
           <RightTopClipPath />
           <div className="hidden md:flex">
-            {" "}
+        
             <RightClipPath />
             <PolygonClipPath />
           </div>
@@ -72,7 +72,7 @@ const Hero = () => (
           </div>
 
           <div className="hidden md:flex">
-            {" "}
+          
             <LeftClipPath />
           </div>
         </div>
