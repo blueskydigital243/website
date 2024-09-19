@@ -38,6 +38,7 @@ jobs:
             host: ${{ secrets.HOST }}
             port: 22
             username: ${{ secrets.USERNAME }}
+            password: ${{ secrets.PASSWORD }}
             key: ${{ secrets.PRIVATE_KEY }}
             script: |
               cd sites/aginatech-site/website
@@ -48,4 +49,4 @@ jobs:
               npm run build
               pm2 delete aginatech
               pm2 start npm --name "aginatech" -- start
-              echo 'Deploy finished successfully..'
+              echo 'Deploy finished successfully...'
