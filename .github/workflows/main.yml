@@ -42,6 +42,8 @@ jobs:
             script: |
               cd sites/aginatech-site/website
               git pull origin main
+              export NVM_DIR=~/.nvm
+              source ~/.nvm/nvm.sh
               npm run build
               pm2 delete aginatech
               pm2 start npm --name "pm2 delete aginatech" -- start
