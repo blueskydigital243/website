@@ -35,9 +35,9 @@ jobs:
         - name: Run deployment
           uses: appleboy/ssh-action@v1.0.3
           with:
-            host: ${{ secrets.SSH_IP }}
+            host: ${{ secrets.HOST }}
             port: 22
-            username: ${{ secrets.SSH_USER }}
+            username: ${{ secrets.USERNAME }}
             key: ${{ secrets.PRIVATE_KEY }}
             script: |
               cd sites/aginatech-site/website
