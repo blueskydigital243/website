@@ -33,12 +33,11 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Run deployment
-          uses: appleboy/ssh-action@master
+          uses: appleboy/ssh-action@v1.0.3
           with:
             host: ${{ secrets.SSH_IP }}
-            port: ${{ secrets.SSH_PORT }}
+            port: 22
             username: ${{ secrets.SSH_USER }}
-            password: ${{ secrets.SSH_PASSWORD }}
             key: ${{ secrets.SSH_PRIVATE_KEY }}
             script: |
               cd sites/aginatech-site/website
