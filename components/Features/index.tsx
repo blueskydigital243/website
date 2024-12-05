@@ -12,7 +12,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Nos services"
-            paragraph="Aginatech, votre partenaire tout-en-un pour le développement sur mesure, les solutions digitales avancées et le marketing digital percutant."
+            paragraph="Bluesky Digital, votre partenaire tout-en-un pour le développement sur mesure, les solutions digitales avancées et le marketing digital percutant."
             center
           />
 

@@ -31,11 +31,11 @@ const HeroContent = () => (
         className="font-extrabold tracking-tight text-black/95 text-3xl sm:text-4xl lg:text-7xl sm:leading-loose"
         style={{ lineHeight: "1.2" }}
       >
-        Innovons Ensemble avec Aginatech<span className="text-primary">.</span>
+        Innovons Ensemble avec <span className="text-primary">Bluesky</span>Digital .
       </h1>
       <div>
         <p className="font-light text-xl text-light">
-          Explorez de nouveaux horizons numériques avec Aginatech, votre partenaire de confiance pour l&apos;innovation technologique. Nous façonnons l&apos;avenir numérique avec des solutions sur mesure, des abonnements à nos outils numériques et des stratégies de marketing digital percutantes.
+          Explorez de nouveaux horizons numériques avec Bluesky Digital, votre partenaire de confiance pour l&apos;innovation technologique. Nous façonnons l&apos;avenir numérique avec des solutions sur mesure, des abonnements à nos outils numériques et des stratégies de marketing digital percutantes.
         </p>
       </div>
 

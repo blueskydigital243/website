@@ -13,11 +13,11 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block text-white font-bold text-2xl">
-                   Aginatech
+                   Bluesky Digital
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
                 Votre Partenaire en Innovation Technologique.
-                Aginatech, l&apos;agence qui réinvente votre présence digitale. 
+                Bluesky Digital, l&apos;agence qui réinvente votre présence digitale. 
                 </p>
                 <div className="flex items-center">
                   <a
@@ -191,7 +191,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-             &copy; Aginatech
+             &copy; Bluesky Digital
             </p>
           </div>
         </div>

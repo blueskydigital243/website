@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "Développement sur mesure",
     paragraph:
-      "Chaque ligne de code chez Aginatech est une œuvre d'art. Transformez vos idées en réalité avec notre service de développement sur mesure, où la créativité rencontre la programmation.",
+      "Chaque ligne de code chez Bluesky Digital est une œuvre d'art. Transformez vos idées en réalité avec notre service de développement sur mesure, où la créativité rencontre la programmation.",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "Web Design",
     paragraph:
-      "L'esthétique qui captive, la fonctionnalité qui impressionne. Aginatech redéfinit le web design pour créer des expériences en ligne qui captivent, convertissent et inspirent.",
+      "L'esthétique qui captive, la fonctionnalité qui impressionne. Bluesky Digital redéfinit le web design pour créer des expériences en ligne qui captivent, convertissent et inspirent.",
   },
  
   {
@@ -60,7 +60,7 @@ const featuresData: Feature[] = [
     ),
     title: "Marketing Digital ",
     paragraph:
-      "Du clic à la conversion, nous maîtrisons l'art du marketing digital. Aginatech façonne des stratégies percutantes qui propulsent votre marque vers de nouveaux sommets sur le paysage numérique.",
+      "Du clic à la conversion, nous maîtrisons l'art du marketing digital. Bluesky Digital façonne des stratégies percutantes qui propulsent votre marque vers de nouveaux sommets sur le paysage numérique.",
   },
   
  

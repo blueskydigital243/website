@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   nextjs-app:
-    container_name: aginatech-ui
+    container_name: bluesky-digital-ui
     build:
       context: .
       dockerfile: Dockerfile

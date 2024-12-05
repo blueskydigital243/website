@@ -10,7 +10,7 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aginatech",
+  title: "Bluesky Digital",
   description: "Le Digital c'est nous.",
 };
 

@@ -53,7 +53,7 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <h1 className="font-bold text-2xl">AGINATECH</h1>
+                <h1 className="font-bold text-2xl uppercase"><span className="text-primary">Bluesky</span> Digital</h1>
               </Link>
             </div>
             <div>
